@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+}
+
+.menu-nav li {
+    display: inline;
+    margin: 10px;
+}
+
+/*.nav-menu {*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat, repeat;*/
+    /*background-image: url("https://nebula.wsimg.com/d9817d839846beacb6cc0adf68088b59?AccessKeyId=8F9AA99F0324BDE6E72D&disposition=0&alloworigin=1");*/
+/*}*/
+
+.nav-menu li {
+    display: inline;
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+
+.home {
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F10%2Fc0%2F30%2F0e%2Fbuilding-front.jpg&f=1");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-color: limegreen;*/
+    background-blend-mode: normal;
+    /*height: 25em;*/
+    padding: 500px;
+    margin: 10px;
+}
+
+.main-title {
+    color: red;
+}
+
+.nav-box {
+    padding: 80px;
+    margin: 5px, 10px;
+    background-color: limegreen;
+    background-position: right;
+    background-repeat: no-repeat, repeat;
+    background-image: url("https://nebula.wsimg.com/d9817d839846beacb6cc0adf68088b59?AccessKeyId=8F9AA99F0324BDE6E72D&disposition=0&alloworigin=1");
+}
+
+.menu-nav-box {
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    background-color: red;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.3em;
+    font-family: cursive;
+}
+
+.menu-text {
+    text-align: center;
+    background-color: yellow;
+}

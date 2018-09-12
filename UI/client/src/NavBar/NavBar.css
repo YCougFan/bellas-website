@@ -4,7 +4,7 @@ ul {
 
 .menu-nav li {
     display: inline;
-    margin: 10px;
+    margin: 5px;
 }
 
 /*.nav-menu {*/
@@ -15,7 +15,7 @@ ul {
 
 .nav-menu li {
     display: inline;
-    margin: 10px;
+    margin: 6px;
     font-size: 1.3em;
 }
 
@@ -38,7 +38,7 @@ ul {
 
 .nav-box {
     padding: 80px;
-    margin: 5px, 10px;
+    margin: 10px 0 10px 0;
     background-color: limegreen;
     background-position: right;
     background-repeat: no-repeat, repeat;
@@ -47,7 +47,7 @@ ul {
 
 .menu-nav-box {
     padding: 30px;
-    margin: 10px;
+    margin: 5px 0 10px 0;
     display: flex;
     align-content: center;
     background-color: red;

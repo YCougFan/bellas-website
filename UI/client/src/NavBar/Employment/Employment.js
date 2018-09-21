@@ -142,8 +142,6 @@ const Employment = () => {
                                             name="Evening"/>
                                             Evening
                                     </div><br/>
-                        <div>
-                            <div>
                                 <div>
                                     <label>
                                         Please tell us any other scheduling or availability considerations, ie: school, children, etc.
@@ -152,12 +150,10 @@ const Employment = () => {
                                             placeholder="Other Scheduling/Availability Information">
                                     </textarea>
                                 </div>
-                            </div>
-                        </div>
                 </div>
-                <div>
-                    <input type="Submit"/>
-                </div>
+                    <div>
+                        <input type="Submit"/>
+                    </div>
             </form>
         </div>
     );

@@ -21,7 +21,7 @@ class NavBar extends Component {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link className="menu" to="/menu">Menu</Link>
+                            <Link to="/menu">Menu</Link>
                         </li>
                         <li>
                             <Link to="/catering">Catering</Link>
@@ -40,7 +40,6 @@ class NavBar extends Component {
                         </li>
                     </ul>
 
-                    <hr />
 
                     <Route exact path="/" component={HomePage} />
                     <Route path="/menu" component={Menu} />

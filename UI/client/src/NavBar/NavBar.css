@@ -1,69 +1,50 @@
-* {
-    margin: 1px;
+/* Home page & background image */
+.home {
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F10%2Fc0%2F30%2F0e%2Fbuilding-front.jpg&f=1");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: normal;
+    padding: 500px;
+    margin: 10px;
 }
 
-ul {
-    list-style-type: none;
+/* Nav bar */
+.nav-box {
+    top: 0;
+    padding: 80px;
+    margin: 2px 0 2px 0;
+    background-color: limegreen;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url("https://nebula.wsimg.com/d9817d839846beacb6cc0adf68088b59?AccessKeyId=8F9AA99F0324BDE6E72D&disposition=0&alloworigin=1");
 }
 
-.menu-nav li {
-    display: inline;
-    margin: 5px;
-}
-
-/*.nav-menu {*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat, repeat;*/
-    /*background-image: url("https://nebula.wsimg.com/d9817d839846beacb6cc0adf68088b59?AccessKeyId=8F9AA99F0324BDE6E72D&disposition=0&alloworigin=1");*/
-/*}*/
-
+/* Nav bar links */
 .nav-menu li {
     display: inline;
     margin: 6px;
     font-size: 1.3em;
 }
 
-
-.home {
-    background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F10%2Fc0%2F30%2F0e%2Fbuilding-front.jpg&f=1");
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
-    /*background-color: limegreen;*/
-    background-blend-mode: normal;
-    /*height: 25em;*/
-    padding: 500px;
-    margin: 10px;
-}
-
-.main-title {
-    color: red;
-}
-
-.nav-box {
-    padding: 80px;
-    margin: 10px 0 10px 0;
-    background-color: limegreen;
-    background-position: right;
-    background-repeat: no-repeat, repeat;
-    background-image: url("https://nebula.wsimg.com/d9817d839846beacb6cc0adf68088b59?AccessKeyId=8F9AA99F0324BDE6E72D&disposition=0&alloworigin=1");
-}
-
+/* Menu nav bar */
 .menu-nav-box {
-    padding: 30px;
-    margin: 5px 0 10px 0;
+    padding: 5px;
+    margin: 2px 0 2px 0;
     display: flex;
     align-content: center;
     background-color: red;
 }
 
+/* Menu component links */
 .main-title {
-    text-align: center;
-    font-size: 2.3em;
-    font-family: cursive;
+    color: red;
 }
 
+/* Menu components body */
 .menu-text {
     text-align: center;
-    background-color: yellow;
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fi1.wp.com%2Fchewandchat.com%2Fwp-content%2Fuploads%2F2016%2F04%2FFullSizeRender-61.jpg&f=1");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
